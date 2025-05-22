@@ -1,11 +1,1 @@
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: roadie-techdocs-example-component
-  description: An example component with technical documentation
-  annotations:
-    backstage.io/techdocs-ref: dir:.
-spec:
-  type: service
-  lifecycle: experimental
-  owner: default/team-a 
+{"metadata":{"namespace":"default","annotations":{"github.com/owner":"ThriveMarket","github.com/repo":"auth-service","backstage.io/managed-by-location":"url:https://github.com/thrivemarket/auth-service/tree/main/catalog-info.yaml","backstage.io/managed-by-origin-location":"url:https://github.com/thrivemarket/auth-service/blob/main/catalog-info.yaml","backstage.io/view-url":"https://github.com/thrivemarket/auth-service/tree/main/catalog-info.yaml","backstage.io/edit-url":"https://github.com/thrivemarket/auth-service/edit/main/catalog-info.yaml","backstage.io/source-location":"url:https://github.com/thrivemarket/auth-service/","github.com/project-slug":"ThriveMarket/auth-service","backstage.io/techdocs-ref":"dir:.","backstage.io/openapi-spec":"https://github.com/ThriveMarket/auth-service/blob/main/src/main/resources/api/openapi.yaml","newrelic.com/dashboard-guid":"MjY0OTkzMnxFWFR8U0VSVklDRXwzODY1MjIwODc5NzEwMTU3MTg"},"name":"auth-service","title":"JWT Authentication Service","description":"Service that enables clients to obtain and validate JSON Web Tokens using Magento session credentials.","tags":["java","spring-boot","jwt","authentication","platform"],"uid":"e2f28abf-336f-46aa-b12d-9a706e0135bc"},"apiVersion":"backstage.io/v1alpha1","kind":"Component","spec":{"type":"service","lifecycle":"experimental","owner":"platform-team","system":"authentication","providesApis":["auth-service-api"],"dependsOn":["resource:default/magento"]}} 
