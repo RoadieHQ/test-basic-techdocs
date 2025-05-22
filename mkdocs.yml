@@ -1,0 +1,7 @@
+site_name: Example Component Documentation
+site_description: Technical documentation for the example component
+
+plugins:
+  - techdocs-core
+nav:
+  - Home: index.md
