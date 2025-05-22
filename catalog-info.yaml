@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: example-component
+  name: roadie-techdocs-example-component
   description: An example component with technical documentation
   annotations:
     backstage.io/techdocs-ref: dir:.
